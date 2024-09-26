@@ -1,6 +1,6 @@
 # Once upon a time there was a [strange animal] in the time period of [random time period].
 # Everyday this animal would [activity] and [another acivity], 
-# but one day this animal saw [an object] and it changed the animal's life 
+# but one day this animal saw [an object] and it changed the animal's life. 
 print("This is a Mad Lib, you follow the instructions and then when finished read the very silly story!")
 print("name a strange animal")
 animal = user_input =input("Enter something")
