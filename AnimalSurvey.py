@@ -1,4 +1,4 @@
-print("Hello, I'm going to ask some questions, please answer them.")
+print("Hello, I'm going to ask some questions, please answer them.") #Useless
 print("What is your favorite animal?")
 string1 = user_input = input("Enter something: ")
 print("You entered: "+ user_input)
@@ -14,4 +14,4 @@ print("You entered: "+ user_input)
 print("Where do they live?")
 string5 = user_input = input("Enter something: ")
 print("You entered: "+ user_input)
-result = print("Your favorite animal is " + string1 + ", they eat "  + string2 + ", they are "  + string3  + ", they are " + string4 + ", and they live in " + string5 +".")
+result = print("Your favorite animal is " + string1 + ", they eat "  + string2 + ", they are "  + string3  + ", they are " + string4 + ", and they live in " + string5 +".") #Summary
