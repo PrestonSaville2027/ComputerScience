@@ -1,0 +1,32 @@
+# Bolean Expression 
+# Kinda like a mathematical formula
+# 14 + 10 = 24
+# + - / * ** % //
+# Only evaluate to true or false 
+# 5 > 10 = false
+# > < >= <= == !=
+
+print(14 + 10) # Algebra
+print(5 > 10) # Boolean
+# you would see 24 and then false
+
+print(5 == "5") # "are you equal?""
+
+
+x = 5 # SET x = to 5
+print(x == 5) # GET x = to 5 
+
+
+# The perfect TEST QUESTION
+# What is the difference between = and == ?
+
+print(10 != 10) #false, not 
+# ! reverses the thing
+
+answer_two = input("Write the number 5\n>")
+answer_two = int(answer_two)
+print(answer_two == 5)
+
+# This works too!
+answer_two = input("Write the number 5\n>")
+print(answer_two == "5")
