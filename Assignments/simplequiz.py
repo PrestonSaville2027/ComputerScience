@@ -31,3 +31,17 @@ def tally_score():
     print("your score is " + str(score) + " out of 5")
 
 tally_score()
+
+#string functions are a group of functions that modify strings 
+# .Lower()
+
+x = "Lord of the Rings"
+x = x.lower()
+print(x)
+
+# .lower() changes the string to lowercase
+# .uppper() changes the string to uppercase
+# .captialize() changes the whole string to lowercase and then capitalizes the first letter
+
+# .swapcase() inverts the capitalization of each character
+# Hello World = hELLO wORLD
