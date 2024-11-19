@@ -1,0 +1,24 @@
+import random
+
+
+
+number = random.randint(0,100)
+entered_number = ""
+
+
+while entered_number != number:
+    entered_number = input("Guess a number between 0 and 100!\n>")
+    
+    
+        if int(entered_number) > number:
+            print("to high")
+    
+        elif int(entered_number) < number:
+            print("to low")
+
+        elif int(entered_number) == number:
+            print("Great job! You guessed it!")
+
+    
+        else: 
+        print("Please try again")

@@ -1,0 +1,46 @@
+import random
+
+# The four types of collcetions
+# Tuple
+# Set
+# List
+# Dictionary
+
+# Today = lists
+# A list is a way to store mor ethan one variable in single variable
+# The values in the list are called ITEMS
+# Items can be access by thier index (position in the list)
+
+#                                    0              1               2               3           4
+best_elden_ring_weapons = ["Blasphemous Blade", "Moonveil", "River of Blood", "Iron Ball", "Fang"]
+best_years = [1776, 1985, 1994, 1957, 2016]
+my = 1
+print(best_years[my])
+
+print (best_elden_ring_weapons[0])
+
+
+print(best_elden_ring_weapons[len(best_elden_ring_weapons)-2])
+
+# list items can be changed!
+best_elden_ring_weapons[3] = "spike"
+
+
+# list functions!
+#.pop() removes indexs
+#.remove() removes and item by value
+best_elden_ring_weapons.remove()
+#.append() adds the value as a new item to the end of the list
+best_elden_ring_weapons.append("HELLO")
+# max()
+# min()
+
+numbers = [random.randint(0,100),random.randint(0,100),random.randint(0,100),random.randint(0,100),random.randint(0,100),]
+print(numbers)
+numbers.sort()
+print(numbers)
+
+print(max(numbers))
+print(min(numbers))
+
+integer = [67,34,89,27,3]
